@@ -1,0 +1,294 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+.nav-link{
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+.nav-link:hover{
+  color: white;
+}
+.nav{
+  background-color: rgb(35, 143, 231);
+ align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 8px;
+  
+}
+#logo{
+  font-size: 30px;
+  font-weight: 600;
+  
+}
+
+#update{
+  width: 120px;
+  font-size: 18px;
+}
+#icon1{
+  position: relative;
+  top: 4px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+}
+#groplogo{
+  position: relative;
+  top: 5px;
+  right: 5px;
+ 
+}
+
+.dropdown-item{
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+ height: 50px;
+ align-items: center;
+
+}
+.dropdown-menu{
+  width: 200px;
+ 
+ 
+}
+
+.jumbotron:hover{
+  position: relative;
+  top: -10px;
+}
+.jumbotron{
+  margin-top: 20px;
+  position:relative;
+  background-color: white;
+  
+  border-radius: 10px;
+ box-shadow: 5px 5px;
+ margin: 20px 30px;
+  }
+.corses-log {
+background-color: rgba(107, 109, 104, 0.123);
+  z-index: -1;
+  text-align: center;
+
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  margin: 10px 20px;
+ }
+
+.menu-icon{
+  width: 30px;
+  height:30px;
+  margin-right: 30px;
+}
+.menu{
+position: absolute;
+z-index: 10;
+}
+/*-------------------------------@media-Screen--------------------------*/
+@media screen and (max-width:1000px) {
+  .nav-item{
+    display: none;
+  }
+}
+@media screen and (min-width:800px){
+.menu-icon{
+  display: none;
+}
+@media screen and (max-width:400px) {
+  #logo{
+    font-size: 20px;
+  }
+}
+/*----------------------------------@media screeen End----------------------------*/
+}
+.dropdown-menu{
+  background-color: rgb(35, 143, 231); 
+}
+#input{
+  display: none;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+margin-bottom: 10px;
+}
+
+#output{
+  margin-top: 20px;
+}
+
+#change{
+
+ 
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 900;
+
+}
+
+
+
+.camera-icon{
+  position: relative;
+  top: 2px;
+}
+.s-para{
+  color: white;
+  font-weight: 700;
+ line-height: 5px;
+  
+}
+
+.pro-btn{
+  align-items: center;
+  margin-top: 10px;
+  font-weight:700;
+}
+#html{
+  position: relative;
+  top: 5px;
+  margin-right: 10px;
+}
+.profile{
+  background-color: rgba(35, 143, 231, 0.61);
+  height: 250px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+ 
+}
+@media screen and (max-width:310px) {
+  .profile{
+    height: 330px;
+  }
+}
+#name{
+  color: white;
+  font-weight: 700;
+
+}
+#country{
+  color: white;
+  font-weight: 700;
+}
+.go-pro{
+ 
+  height: 80px;
+  background-color: rgb(21, 21, 59);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+ border-radius: 10px;
+ }
+ @media screen and (max-width:450px){
+  .s-para{
+    font-size: 10px;
+  }
+ }
+ #Pro-bg{
+  background-color: rgb(17, 17, 51);
+ }
+ .close-btn{
+  position: fixed;
+  top: 40px;
+  right: 80px;
+ }
+ .pro-box{
+ margin-top: 50px;
+ }
+
+.pro-start{
+  background-color: rgba(71, 71, 119, 0.671);
+  padding:10px;
+  width: 300px;
+  border-radius: 20px;
+}
+.pro-middle{
+  background-color: rgba(71, 71, 119, 0.671);
+  padding:10px;
+  width: 300px;
+  border-radius: 20px;
+}
+.pro-end{
+  background-color: rgba(71, 71, 119, 0.671);
+  padding:10px;
+  width: 300px;
+  border-radius: 20px;
+}
+.start-header{
+  border-bottom:solid rgba(255, 255, 255, 0.39) 1px;
+  height: 180px;
+}
+.middle-header{
+  border-bottom:solid rgba(255, 255, 255, 0.39) 1px;
+  height: 180px;
+}
+.end-header{
+  border-bottom:solid rgba(255, 255, 255, 0.39) 1px;
+  height: 180px;
+}
+.check{
+  margin-right: 30px;
+  color: orange;
+}
+.rejected{
+  margin-right: 30px;
+
+}
+.text{
+  font-size: 14px;
+}
+.card-footer{
+  border: none;
+}
+.rounded-pill{
+  font-size: 11px;
+  margin-left: 10px;
+}
+.offer{
+ display: flex;
+ justify-content: space-evenly;
+}
+
+ .index-bg{
+  background-color: rgba(82, 162, 228, 0.514);
+ }
+
+.day{
+  width: 18px;
+  height: 18px;
+  background-color: bisque;
+  border-radius: 50%;
+}
+.html
+{
+width: 30px;
+height: 30px;
+}
+.a{
+  background-color: rgba(76, 164, 236, 0.856);
+  border: solid 1px black;
+}
+.list-group-item{
+  background-color: rgba(7, 47, 133, 0);
+  color: white;
+  border: none;
+}
+.footer{
+  background-color: rgba(7, 47, 133, 0.801);
+}
+.media-icon{
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
+.insta{
+  color: rgb(219, 17, 186);
+}
