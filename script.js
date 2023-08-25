@@ -9,10 +9,10 @@ var loadFile = function (event) {
 
 
 
-  let Name  = promp('Enter your name')
+  let Name  = prompt('Enter your name')
 document.getElementById('name').innerHTML = Name
 
-let Country = promp('Enter Your Country')
+let Country = prompt('Enter Your Country')
 document.getElementById('country').innerHTML = Country
  
 //let Following = promp('Enter Your Following '+"(◕‿◕)")
